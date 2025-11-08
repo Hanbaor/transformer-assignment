@@ -22,7 +22,7 @@ python src\translate.py --config configs\transformer.yml --sentence "Eine Gruppe
 
 - 测试集翻译 + BLEU
 ```bash
-python src\translate.py --config configs\transformer.yml --dataset test --eval --output results\test_pairs.txt --beam_size 5 --length_penalty 0.6
+python src\translate.py --config configs\transformer.yml --dataset tst2014 --eval --output results\test_pairs.txt --beam_size 5 --length_penalty 0.6
 ```
 
 生成内容：
@@ -55,7 +55,7 @@ python src\translate.py --config configs\transformer.yml --dataset test --eval -
 
 - 数据集翻译并计算 BLEU：
 ```bash
-python src\translate.py --config configs\transformer.yml --dataset test --eval --output results\test_pairs.txt
+python src\translate.py --config configs\transformer.yml --dataset tst2014 --eval --output results\test_pairs.txt
 ```
 
 - 结果文件：
@@ -115,4 +115,4 @@ python src\translate.py --config configs\transformer.yml --dataset test --eval -
 
 ## 📝 许可证
 
-本项目为课程作业示例。若用于开源发布，建议添加 `LICENSE`（例如 MIT）。
+本项目为课程作业示例。
