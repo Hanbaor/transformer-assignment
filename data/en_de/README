@@ -1,3 +1,6 @@
+IWSLT 2017数据集下载地址：https://huggingface.co/datasets/IWSLT/iwslt2017
+en_de数据集下载地址：https://huggingface.co/datasets/IWSLT/iwslt2017/tree/main/data/2017-01-trnted/texts/en/de
+
 IWSLT 2017 evaluation campaign: training/development data
 
 # Copyright: TED Conference LLC
