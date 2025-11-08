@@ -1,0 +1,43 @@
+# =======================================================
+#    .gitignore for the Transformer Assignment Project
+# =======================================================
+
+# 1. Folders to ignore completely
+# -----------------------------------------------------------------
+# Ignore the dataset folder. Provide instructions in README on how to get it.
+/data/
+
+# Ignore the results folder where models, plots, and logs are saved.
+/results/
+
+# Ignore Python virtual environment folders
+/venv/
+/.venv/
+/env/
+/.env/
+
+
+# 2. General Python ignores (from GitHub's template)
+# -----------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+
+# 3. IDE and OS specific ignores
+# -----------------------------------------------------------------
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
