@@ -1,0 +1,8 @@
+生成内容：
+
+生成的词表：results/vocab/
+最优模型：results/transformer.pt
+训练曲线：results/training_curves.png
+PPL 曲线：results/training_ppl.png
+翻译对齐：results/test_pairs.txt
+BLEU：results/test_bleu.txt（开启 --eval）
